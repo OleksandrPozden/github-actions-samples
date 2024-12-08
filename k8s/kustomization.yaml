@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: opozden/hello-gitops
-  newTag: 0d83f081001299c102a5c04926f044a9bbbd1075
+  newTag: 8fdbd20fe7a14f27157284d4f8123bfc546b5891
