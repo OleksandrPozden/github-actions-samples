@@ -17,6 +17,13 @@ spec:
       containers:
         - image: hello-gitops
           name: hello-gitops
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
           ports:
             - name: http
               containerPort: 8050
